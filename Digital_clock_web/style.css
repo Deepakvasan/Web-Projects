@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("pattern.png");
+}
+.main{
+  background-color: grey;
+  width: 400px;
+  margin: 95px auto;
+  height: 175px;
+  position: relative;
+  padding: 30px;
+ }
+ .badge{
+   background-color: red;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   width: 90px;
+   padding: 5px 0;
+   position: absolute;
+   top: -15px;
+   left: 155px;
+ }
+ .clock{
+   background-color: lightgray;
+   height: 100%;
+   text-align: center;
+   font-family: orbitron, sans-serif;
+   font-size: 55px;
+   padding-top: 18px;
+ }
