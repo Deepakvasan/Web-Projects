@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./background.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    font-size: large;
+    font-family: 'ubuntu', sans-serif;
+    color: whitesmoke;
+}
+.main-title{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.form{
+    border: 3px solid whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+#equation-details{
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+}
+#a, #b, #c{
+    width: 100px;
+}
+#a-span, #b-span, #c-span{
+    margin: 0px 15px;
+}
+#result-field{
+    margin: 10px 5px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+}
+.button{
+    padding: 7px;
+    text-align: center;
+}
+#reset-btn, #calculate-btn{
+    padding: 5px;
+    margin: 0px 15px;
+    font-family: 'ubuntu', sans-serif;
+}
+#reset-btn, #calculate-btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-title">
+            <h1>Quadratic Equation Solver</h1>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="equation-details">
+                    <fieldset id="equation-details">
+                        <legend>Equation</legend>
+                        The equation must be of the form ax<sup>2</sup>+bx+c = 0 <br>
+                        <br>
+                        <span id="a-span">
+                            a: <input type="number" name="a" id="a">
+                        </span>
+                        <span id="b-span">
+                            b: <input type="number" name="b" id="b">
+                        </span>
+                        <span id="c-span">
+                            c: <input type="number" name="c" id="c">
+                        </span>
+                    </fieldset>
+                </div>
+                <div class="result">
+                    <fieldset id="result-field">
+                        <legend>Result</legend>
+                        <p id="nature">
+                            Nature of Roots:
+                        </p>
+                        <p id="root-one">
+                            Root one:
+                        </p>
+                        <p id="root-two">
+                            Root two:
+                        </p>
+                    </fieldset>
+                </div>
+                <div class="button">
+                    <input type="reset" value="Clear" id="reset-btn">
+                    <input type="button" value="Calculate" id="calculate-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
