@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quadratic Equation solver</title>
+   <link rel="stylesheet" href="quadratic.css">
+</head>
+
+<body>
+   <header class="quadratic__header">
+      <img src="logo.PNG" alt="Logo" class="header__logo">
+      <h1 class="header__title">Math Equation Solver</h1>
+   </header>
+   <div class="quadratic__container">
+      <div class="container__title">
+         <h2>Quadratic Equation Solver</h2>
+      </div>
+      <img id="container__banner" src="quadratic_banner.png" alt="banner">
+      <div class="container__legend">
+         Equation : ax<sup>2</sup>+bx+c = 0
+      </div>
+      <div class="container__input">
+         <span>a: <input name="a" id="a"></span>
+         <span>b: <input name="b" id="b"></span>
+         <span>c: <input name="c" id="c"></span>
+      </div>
+      <div class="container__button">
+         <button onclick=calculate() type="submit" id="calculate__button">Calculate</button>
+      </div>
+      <div class="container__result">
+         <fieldset id="result__area">
+            <legend>Result:</legend>
+            <p id="nature">Nature : </p>
+            <p id="r1">Root 1 : </p>
+            <p id="r2">Root 2 : </p>
+         </fieldset>
+      </div>
+   </div>
+   <div class="quadratic__homelink">
+      <span id="home__link">
+         <a href="index.html">
+            Home
+         </a>
+      </span>
+   </div>
+   <script src="quadratic.js"></script>
+</body>
+
+</html>

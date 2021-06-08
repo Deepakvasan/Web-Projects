@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+*{
+   margin: 0px;
+   box-sizing: border-box;
+}
+.header__logo{
+   object-fit: contain;
+   height: 80px;
+}
+.home__header{
+   display: flex;
+   align-items: center;
+   background-color: #314152;
+   font-family: 'Josefin Sans';
+}
+.header__title{
+   margin-left: 50px;
+   color: #f2f2f2;
+   text-shadow: 2px 2px #a6a6a6;
+}
+.home__container{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+}
+.container__rowOne{
+   display: flex;
+   justify-content: space-evenly;
+}
+@media screen and (max-width: 788px) {
+   .container__rowOne{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 460px) {
+   .header__logo{
+      display: none;
+   }
+   .home__header{
+      padding: 20px;
+   }
+}
+a{
+   text-decoration: none;
+   color: #000;
+   font-family: 'Padauk';
+   font-size: 20px ;
+}
+.container__matrix2{
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   align-items: center;
+   background-color: #ffffff;
+   border-radius:10px;
+   margin: 30px;
+   padding:30px;
+   transform: scale(1.2);
+}
+#matrix2__img{
+   object-fit: contain;
+   height: 100px !important;
+   margin-bottom: 20px !important;
+}
+body{
+   background-color: #e6e6e6;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix - 3X3</title>
+    <link rel="stylesheet" href="matrix3.css">
+</head>
+
+<body>
+    <header class="matrix3__header">
+        <img src="logo.PNG" alt="Logo" class="header__logo">
+        <h1 class="header__title">Math Equation Solver</h1>
+    </header>
+    <div class="matrix3__container">
+        <h2>3 X 3 Matrix</h2>
+        <img src="matrix3banner.png" alt="banner" class="conatiner__logo">
+        <div class="container__input">
+            <div class="input input__rowone">
+                a<sub>1</sub> : <input type="number" name="a1" id="a1">
+                b<sub>1</sub> : <input type="number" name="b1" id="b1">
+                c<sub>1</sub> : <input type="number" name="c1" id="c1">
+            </div>
+            <div class="input input__rowtwo">
+                a<sub>2</sub> : <input type="number" name="a2" id="a2">
+                b<sub>2</sub> : <input type="number" name="b2" id="b2">
+                c<sub>2</sub> : <input type="number" name="c2" id="c2">
+            </div>
+            <div class="input input__rowthree">
+                a<sub>3</sub> : <input type="number" name="a3" id="a3">
+                b<sub>3</sub> : <input type="number" name="b3" id="b3">
+                c<sub>3</sub> : <input type="number" name="c3" id="c3">
+            </div>
+        </div>
+        <div class="container__buttons">
+            <button id="determinant" onclick=determinant()>Determinant</button>
+            <button id="inverse" onclick=inverse()>Inverse</button>
+        </div>
+        <div class="container__result">
+            <fieldset id="result__area">
+                <legend>Result</legend>
+                <p id="result"></p>
+            </fieldset>
+        </div>
+    </div>
+    <div class="matrix3__homelink">
+        <span id="homelink">
+            <a href="index.html">Home</a>
+        </span>
+    </div>
+    <script src="matrix3.js"></script>
+</body>
+
+</html>

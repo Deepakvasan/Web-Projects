@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+*{
+   margin: 0px;
+   box-sizing: border-box;
+}
+.header__logo{
+   object-fit: contain;
+   height: 80px;
+}
+.quadratic__header{
+   display: flex;
+   align-items: center;
+   background-color: #314152;
+   font-family: 'Josefin Sans';
+}
+.header__title{
+   margin-left: 50px;
+   color: #f2f2f2;
+   text-shadow: 2px 2px #a6a6a6;
+}
+@media screen and (max-width: 490px) {
+   .header__logo{
+      display: none;
+   }
+   .quadratic__header{
+      padding: 20px;
+   }
+   .container__input{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+.quadratic__container{
+   background-color: rgb(243, 243, 243);
+   width: fit-content;
+   padding: 25px;
+   border-radius: 20px;
+   margin: 20px auto ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'KoHo';
+   font-weight: 600;
+   border: 1px solid #000;
+}
+.container__title{
+   font-family: 'Padauk';
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.quadratic__container > img{
+   border: 1px solid rgb(49, 49, 49);
+   border-radius: 20px;
+   object-fit: contain;
+   width: 100%;
+   margin: 0px 20px;
+}
+.container__input{
+   margin: 10px 10px;
+}
+.container__input > span > input{
+   width: 50px;
+   padding: 5px;
+   margin: 10px;
+}
+.container__legend{
+   font-size: 25px;
+   margin-top: 20px;
+}
+.container__input > span{
+   font-size: 25px;
+}
+.container__button{
+   margin-bottom: 15px;
+}
+.container__result{
+   font-size:20px;
+   width: 100%;
+}
+button{
+   padding: 10px;
+   font-size: medium;
+   font-weight: 600;
+   color: rgb(51, 51, 51);
+}
+button:hover{
+   cursor: pointer;
+   background-color: rgb(112, 111, 111);
+   color: #fff;
+}
+#result__area{
+   width:100%;
+   border-radius: 10px;
+}
+#result__area > p{
+   margin: 6px 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body{
+   background-color: #e6e6e6;
+}
+.quadratic__homelink{
+   text-align: center;
+   margin-bottom: 30px;
+}
+#home__link{
+   font-size: x-large;
+   color: #fff;
+   background-color: #a9a9a9;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: 'KoHo';
+   font-weight: bolder;
+}
+#home__link:hover{
+   cursor: pointer;
+}
+#home__link > a{
+   text-decoration: none;
+   color: #fff;
+}

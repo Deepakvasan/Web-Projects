@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*{
+   margin: 0px;
+   box-sizing: border-box;
+}
+.header__logo{
+   object-fit: contain;
+   height: 80px;
+}
+.matrix2__header{
+   display: flex;
+   align-items: center;
+   background-color: #314152;
+   font-family: 'Josefin Sans';
+}
+.header__title{
+   margin-left: 50px;
+   color: #f2f2f2;
+   text-shadow: 2px 2px #a6a6a6;
+}
+@media screen and (max-width: 460px) {
+   .header__logo{
+      display: none;
+   }
+   .matrix2__header{
+      padding: 20px;
+   }
+}
+body{
+   background-color: #e6e6e6;
+   font-family: 'KoHo';
+   font-weight: bold;
+}
+.matrix2__container{
+   width: fit-content;
+   margin: 20px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid #000;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: #fff;
+}
+.matrix2__container h2{
+   font-family: 'Padauk';
+   font-size: 30px;
+}
+.matrix2__container img{
+   margin: 10px;      
+}
+.container__input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+input{
+   width: 40px;
+   padding: 6px 2px;
+   margin-right: 10px;
+}
+.input{
+   margin-bottom: 10px;
+}
+.container__buttons{
+   margin: 10px 0px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+button{
+   padding: 8px;
+   font-family: 'KoHo';
+   font-weight: bolder;
+   border:none;
+   background-color: lightgray;
+   border-radius: 5px;
+}
+button:hover{
+   background-color: #838383;
+   color: white;
+   cursor: pointer;
+}
+.container__result{
+   width: 100%;
+}
+.container__result > fieldset{
+   border-radius: 7px;
+}
+.matrix2__homelink{
+   text-align: center;
+}
+.matrix2__homelink > span{
+   background-color: #807e7e;
+   padding: 10px;
+   border-radius: 5px;
+}
+.matrix2__homelink > span:hover{
+   cursor: pointer;
+}
+#homelink{
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   font-size: 25px;
+
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*{
+   margin: 0px;
+   box-sizing: border-box;
+ }
+ .header__logo{
+   object-fit: contain;
+   height: 80px;
+ }
+ .matrix3__header{
+   display: flex;
+   align-items: center;
+   background-color: #314152;
+   font-family: 'Josefin Sans';
+ }
+ .header__title{
+   margin-left: 50px;
+   color: #f2f2f2;
+   text-shadow: 2px 2px #a6a6a6;
+ }
+ @media screen and (max-width: 460px) {
+  .header__logo{
+     display: none;
+  }
+  .matrix3__header{
+     padding: 20px;
+  }
+}
+ .matrix3__container{
+   width: fit-content;
+   margin: 30px auto;
+   border: 1px solid black;
+   padding: 30px;
+   background-color: #fff;
+   border-radius: 15px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ .matrix3__container > h2{
+   font-family: 'Padauk';
+   font-size: 30px;
+ }
+ .matrix3__container > img{
+    margin:10px 10px;
+ }
+ .container__input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .input{
+    margin-bottom: 10px;
+ }
+ input{
+   width: 40px;
+   padding: 6px 2px;
+ }
+ .container__buttons{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+   padding: 10px 0px;
+   margin: 10px 0px;
+ }
+ .container__result{
+    width: 100%;
+ }
+ #result__area{
+    border-radius:10px;
+ }
+ button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: none;
+    background-color: #cecdcd
+ }
+ button:hover{
+    background-color: #a9a9a9;
+    color: #fff;
+    cursor: pointer;
+ }
+ .matrix3__homelink{
+    text-align: center;
+ }
+ #homelink{
+    background-color: rgb(145, 145, 145);
+    padding: 15px;
+    border-radius: 10px;
+ }
+ #homelink a{
+   text-decoration: none;
+   color:#fff;
+   font-size: x-large;
+   
+ }
+ body{
+     background-color: #e6e6e6;
+     font-family: 'KoHo';
+     font-weight: bold;
+ }
