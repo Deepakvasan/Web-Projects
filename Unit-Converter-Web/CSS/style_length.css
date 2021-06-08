@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: lightgreen;
+   font-family: ubuntu, sans-serif;
+   font-weight: bold;
+}
+.main{
+   border: 3px solid black;
+   margin: 100px auto;
+   margin-bottom: 40px;
+   height: fit-content;
+   padding:10px;
+   width: fit-content;
+}
+.title{
+   border: 1px solid black;
+   padding: 5px;
+   text-align: center;
+}
+.row_one{
+   padding: 10px 0px;
+   margin: 5px 0px;
+}
+.mid_text{
+   padding: 10px 0px;
+   text-align: center;
+}
+.row_two{
+   padding: 10px 0px;
+   margin: 5px 0px;
+}
+.area{
+   border:1px solid black;
+   padding: 5px;
+   margin: 5px 0px;
+}
+.result{
+   border: 1px solid black;
+   padding: 8px 5px;
+   margin: 5px 0px;
+}
+.buttons{
+   padding: 5px;
+}
+#calculate{
+   padding: 5px;
+   font-family: ubuntu, sans-serif;
+   font-weight: bold;
+   margin: 0px 90px;
+}
+#clear{
+   padding: 5px;
+   font-family: ubuntu, sans-serif;
+   font-weight: bold;
+   margin: 0px 90px;
+}
+#home_btn{
+   padding: 6px;
+   font-family: ubuntu, sans-serif;
+   font-weight: bold;
+}
+.back_home{
+   padding: 0 50%;
+}
+#home_btn, #calculate, #clear:hover{
+   cursor: pointer;
+}
