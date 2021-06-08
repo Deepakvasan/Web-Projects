@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'ubuntu', sans-serif;
+}
+.container{
+   width: 50%;
+   margin: 100px auto;
+   border: 1px solid black;  
+   border-radius: 10px;  
+   background-color: rgb(230, 230, 230);
+   padding-bottom: 0p;
+}
+.form{
+   padding: 30px;
+}
+.form > form > fieldset{
+   margin: 10px 0px; 
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px solid black;
+   background-color: rgba(209, 209, 209, 0.932);
+}
+h1{
+   background-color: rgb(166, 195, 110);
+   border-radius: 10px;
+   padding: 30px;
+   text-align: center;
+   border-bottom: 1px solid black;
+}
+.subject > textarea{
+   width: 100%;
+}
+.form > form > fieldset > input{
+   width: 100%;
+   padding: 3px 10px;
+   border-radius: px;
+   border: 0.5 px;
+}
+.button{
+   padding: 20px;
+   text-align: center;
+   padding-bottom: 0px;
+}
+.button > button{
+   padding: 10px;
+   font-size: large;
+   background-color: rgb(166, 195, 110);
+   outline: none;
+   border-radius: 10px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   transition: 0.5s;
+}
+.button > button:hover{
+   cursor: pointer;
+   background-color: rgb(110, 124, 78);
+}
