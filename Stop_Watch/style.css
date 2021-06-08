@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'ubuntu', sans-serif;
+}
+body{
+   background-color: bisque;
+}
+.container{
+   margin: 100px auto;
+   width: fit-content;
+}
+.main-title{
+   margin: 20px auto;
+   padding: 10px;
+   text-align: center;
+   width: fit-content;
+   color: white;
+   background-color: red;
+   border: 1px solid red;
+   border-radius: 5px;
+}
+.time{
+   margin: 10px auto;
+   border: 3px solid black;
+   width: fit-content;
+   padding: 5px 10px;
+   font-size: 70px;
+   border-radius: 10px;   
+}
+.buttons{
+   margin: 10px auto;
+   width: 250px;
+   padding: 10px;
+   text-align: center;
+   font-size: large;
+}
+#start-button, #stop-button, #reset-button{
+   padding: 5px;
+   margin: 0px 5px;
+   font-weight: bold;
+   font-family: 'ubuntu', sans-serif;
+}
+#start-button, #stop-button, #reset-button:hover{
+   cursor: pointer;
+}
