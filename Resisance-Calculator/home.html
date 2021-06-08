@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home Page</title>
+   <link rel="stylesheet" href="home_style.css">
+</head>
+<body>
+   <header>
+      <h1>Resistance Calculator</h1>
+   </header>
+   <nav>
+      <a href="home.html">Home</a>
+      <a href="./Pages/Three_band.html">Three Band Resistor</a>
+      <a href="./Pages/Four_band.html">Four Band Resistor</a>
+      <a href="./Pages/Five_band.html">Five Band Resistor</a>
+   </nav>
+   <div class="container">
+      <div class="instructions">
+         <h3>Introduction</h3>
+         <p id="introduction">
+            Resistors are available in many different values, shapes, and physical sizes. Practically all leaded resistors with a power rating up to one watt have a pattern of colored bands that are used to indicate resistance value, tolerance, and sometimes even the temperature coefficient. There can be anywhere from three to six colored bands on the body of a resistor, with four bands being the most common variation.The first few bands always represent digits in the value of resistance. Then you will find a multiplier band to signify moving the decimal right or left.
+         </p>
+         <h3>How to Calculate the resistance:</h3>
+         <h3>Three or Four band resistors:</h3>
+         <p id="calculate_four_three">
+            The first two bands always denote the first two digits of the resistance value in ohms. On a three or four-band resistor, the third band represents the multiplier. This multiplier will basically shift your decimal place around to change your value from mega ohms to milliohms and anywhere in between. The fourth color band signifies tolerance. Keep in mind that if this band is absent and you are looking at a three-band resistor, the default tolerance is ±20%.
+         </p>
+         <h3>Five Band resistors:</h3>
+         <p id="calculate_five">
+            Resistors with high precision have an extra color band to indicate a third significant digit. If your resistor has five or six color bands, the third band becomes this additional digit along with bands one and two. Everything else shifts to the right, making the fourth color band the multiplier and the fifth band the tolerance.
+         </p>
+      </div>
+      <div class="images">
+         <div>
+            <h4>Three band resistor</h4>
+            <img src="./Images/Three-Band-Code.png" alt="Three band resistor">
+         </div>
+         <div>
+            <h4>Four band resistor</h4>
+            <img src="./Images/Four-Band-Code.jpg" alt="Four band resistor">
+         </div>
+         <div>
+            <h4>Five band resistor</h4>
+            <img src="./Images/Five-Band-Code.jpg" alt="Five band resistor">
+         </div>
+      </div>
+   </div>
+</body>
+</html>
