@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: crimson;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+.main-title{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.instructions{
+    padding: 10px 0px;
+    text-align: center;
+}
+.input{
+    padding: 10px 0px;
+}
+#guess{
+    margin: 0px 5px;
+    width: 220px;
+    padding: 5px;
+    font-weight: bold;
+}
+.buttons{
+    text-align: center;
+    padding: 10px;
+}
+#check{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#check:hover{
+    cursor: pointer;
+}
+.result{
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
