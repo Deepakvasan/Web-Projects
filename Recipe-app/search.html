@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Recipe</title>
+   <link rel="stylesheet" href="search_style.css">
+</head>
+
+<body>
+   <header>
+      <img src="Logo.png" alt="">
+      <h1>Your Recipe App</h1>
+   </header>
+   <div class="container">
+      <div class="container__input">
+         <p>Enter the dish: </p>
+         <div>
+            <input type="text" name="" id="dish">
+            <button onclick=test() id="input__search">Search</button>
+         </div>
+      </div>
+      <div class="container__result">
+         <div id="result__dishname">
+            Your results will appear here!
+         </div>
+         <img src="" alt="" id="result__dishimage">
+         <div id="result__dishcategory">
+         </div>
+         <div>
+            <p id="result__ingredients"></p>
+         </div>
+
+      </div>
+   </div>
+   <script src="./node_modules/axios/dist/axios.min.js"></script>
+   <script src="search_app.js"></script>
+</body>
+
+</html>

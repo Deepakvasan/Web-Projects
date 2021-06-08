@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+  background-color: #eee; 
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   font-style: italic;
+   font-family: 'Ubuntu';
+   background-color: #ACE4AE ;
+   border-bottom: 6px solid #72C17A;
+}
+header img{
+   margin-right: 20px;
+}
+header h1{
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   text-shadow: 2px 2px rgb(201, 201, 201);
+}
+.container__input{
+   padding: 20px;
+   width: fit-content;
+   margin: 20px auto;
+}
+.container__input p{
+   font-family: 'Ubuntu';
+   font-size: 30px;
+   font-style: normal;
+   margin-bottom: 10px;
+}
+.container__input div{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.container__input input{
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   border-bottom: 1px solid rgb(78, 145, 221);
+   font-size: 20px;
+   font-family: 'Ubuntu';
+   margin-right: 10px;
+}
+.container__input button{
+   padding: 8px;
+   font-size: large;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   background-color: rgb(110, 156, 255);
+   transition: 0.3s;
+}
+.container__input button:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   background-color: rgb(59, 111, 221);
+}
+.container__result{
+   margin: 10px auto;
+   width: fit-content;
+   border: 1px solid black;
+   padding: 35px;
+   border-radius: 20px;
+}
+#result__dishname{
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 15px;
+   font-family: 'Ubuntu';
+   text-decoration: underline;
+}  
+.container__result img{
+   object-fit: contain;
+   width: 350px;
+   border-radius: 20px;
+   margin-bottom: 20px;
+
+}
+#result__dishcategory, #result__ingredients{
+   margin-left: 30px;
+   font-family: 'Ubuntu';
+   font-size: 20px;
+   margin-bottom: 10px;
+}
